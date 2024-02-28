@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-27T14:06:23 IST" name="Suite" finished-at="2024-02-27T14:07:05 IST" duration-ms="42384">
+    <groups>
+      <group name="master">
+        <method signature="TC_006_EndToEndTest.OrderSuccessfull()[pri:0, instance:testCases.TC_006_EndToEndTest@78691363]" name="OrderSuccessfull" class="testCases.TC_006_EndToEndTest"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-02-27T14:06:23 IST" name="Test" finished-at="2024-02-27T14:07:05 IST" duration-ms="42384">
+      <class name="testCases.TC_006_EndToEndTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_006_EndToEndTest@78691363]" started-at="2024-02-27T14:06:23 IST" name="setup" finished-at="2024-02-27T14:06:26 IST" duration-ms="2736" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="OrderSuccessfull()[pri:0, instance:testCases.TC_006_EndToEndTest@78691363]" started-at="2024-02-27T14:06:26 IST" name="OrderSuccessfull" finished-at="2024-02-27T14:07:05 IST" duration-ms="39201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderSuccessfull -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_006_EndToEndTest@78691363]" started-at="2024-02-27T14:07:05 IST" name="tearDown" finished-at="2024-02-27T14:07:05 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_006_EndToEndTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
